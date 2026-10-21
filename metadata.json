@@ -1,0 +1,7 @@
+{
+  "name": "Toán Quê Em AI",
+  "description": "Nền tảng học Toán thực tế gắn liền với đời sống quê hương Lâm Đồng dành cho học sinh THCS, hỗ trợ bởi Gia sư AI Socratic và Xưởng sáng tạo bài toán.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
