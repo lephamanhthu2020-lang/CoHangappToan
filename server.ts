@@ -40,7 +40,7 @@ app.post('/api/gemini/tutor', async (req: Request, res: Response) => {
 
     const ai = getGeminiClient();
 
-    const systemInstruction = `Bạn là "Gia sư Toán Quê Em AI" - người thầy/cô gia sư dạy Toán THCS (Chương trình GDPT 2018) thân thiện, kiên nhẫn và giàu kinh nghiệm tại vùng đất Lâm Đồng (Trường TH & THCS An Hiệp).
+    const systemInstruction = `Bạn là "Gia sư Toán Quê Em AI" - người thầy/cô gia sư dạy Toán THCS (Chương trình GDPT 2018) thân thiện, kiên nhẫn và giàu kinh nghiệm tại vùng đất Lâm Đồng (Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng).
 Học sinh của bạn đang ở độ tuổi 11 - 15 (${studentLevel}).
 
 NGUYÊN TẮC SƯ PHẠM BẮT BUỘC:
@@ -141,7 +141,7 @@ Hãy trả về JSON theo đúng cấu trúc sau (không kèm markdown ngoài JS
   "topic": "${topic}",
   "difficulty": "${difficulty}",
   "isSimulated": ${dataType === 'Mô phỏng' ? 'true' : 'false'},
-  "dataSource": "Nguồn dữ liệu (ví dụ: Mô hình khảo sát thực nghiệm Trường TH&THCS An Hiệp)",
+  "dataSource": "Nguồn dữ liệu (ví dụ: Mô hình khảo sát thực nghiệm Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng)",
   "recordDate": "2026-10-21",
   "story": "Đoạn văn bối cảnh thực tế đời sống Lâm Đồng dẫn dắt vào bài toán (3-5 câu)",
   "variables": [
@@ -224,9 +224,9 @@ function generateProblemTemplate(grade: string, topic: string, localContext: str
     topic,
     difficulty,
     isSimulated: dataType === 'Mô phỏng',
-    dataSource: 'Khảo sát thực tiễn mô hình nông nghiệp Trường TH & THCS An Hiệp',
+    dataSource: 'Khảo sát thực tiễn mô hình nông nghiệp Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng',
     recordDate: '2026-10-21',
-    story: `Gia đình bạn Nam ở xã An Hiệp (huyện Đức Trọng, Lâm Đồng) có một vườn trồng rau xà lách thủy canh và cà chua bi. Để bảo vệ nguồn nước ngầm và nâng cao năng suất, gia đình dự định lắp đặt hệ thống tưới tự động kết hợp cảm biến độ ẩm đất.`,
+    story: `Gia đình bạn Nam ở thôn An Hiệp (xã Hiệp Thạnh, huyện Đức Trọng, Tỉnh Lâm Đồng) có một vườn trồng rau xà lách thủy canh và cà chua bi. Để bảo vệ nguồn nước ngầm và nâng cao năng suất, gia đình dự định lắp đặt hệ thống tưới tự động kết hợp cảm biến độ ẩm đất.`,
     variables: [
       { name: 'Chiều dài luống rau', symbol: 'a', value: 12, unit: 'm' },
       { name: 'Chiều rộng luống rau', symbol: 'b', value: 8, unit: 'm' },

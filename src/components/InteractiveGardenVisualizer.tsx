@@ -50,11 +50,11 @@ export const InteractiveGardenVisualizer: React.FC<InteractiveGardenVisualizerPr
               <Droplets className="w-5 h-5 text-emerald-700" />
             </span>
             <h3 className="font-bold text-lg text-stone-900">
-              Mô hình trực quan: Luống rau & Hệ thống tưới An Hiệp
+              Mô hình trực quan: Luống rau & Hệ thống tưới An Hiệp (xã Hiệp Thạnh)
             </h3>
           </div>
           <p className="text-xs text-stone-600 mt-1">
-            Mô phỏng hình học không gian và lưu lượng nước tưới thực nghiệm tại Lâm Đồng
+            Mô phỏng hình học không gian và lưu lượng nước tưới thực nghiệm tại xã Hiệp Thạnh, Tỉnh Lâm Đồng
           </p>
         </div>
 
@@ -325,7 +325,7 @@ export const InteractiveGardenVisualizer: React.FC<InteractiveGardenVisualizerPr
             </div>
 
             <p className="text-[11px] text-emerald-100/90 leading-tight pt-1">
-              💡 1.008 lít nước tiết kiệm tương đương bảo tồn hơn 1m³ nước ngầm cho vùng đất An Hiệp trong một tuần!
+              💡 1.008 lít nước tiết kiệm tương đương bảo tồn hơn 1m³ nước ngầm cho vùng đất An Hiệp (xã Hiệp Thạnh) trong một tuần!
             </p>
           </div>
         </div>

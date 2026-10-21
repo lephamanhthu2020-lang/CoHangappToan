@@ -239,7 +239,7 @@ export default function App() {
                 </div>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                  <span>Đơn vị: <strong>Trường TH và THCS An Hiệp</strong>, huyện Đức Trọng, tỉnh Lâm Đồng</span>
+                  <span>Đơn vị: <strong>Trường TH & THCS An Hiệp</strong>, xã Hiệp Thạnh, Tỉnh Lâm Đồng</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <Trees className="w-4 h-4 text-green-400 shrink-0 mt-0.5" />
@@ -276,7 +276,7 @@ export default function App() {
 
           <div className="border-t border-emerald-900 pt-5 flex flex-col sm:flex-row items-center justify-between text-[11px] text-emerald-400 gap-2">
             <div>
-              © 2026 Toán Quê Em AI • Bản quyền thuộc về tác giả Lê Thị Hằng – Trường TH & THCS An Hiệp, Lâm Đồng.
+              © 2026 Toán Quê Em AI • Bản quyền thuộc về tác giả Lê Thị Hằng – Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng.
             </div>
             <div className="text-emerald-400/80">
               Phát triển với React, TypeScript, Tailwind CSS & Gemini API

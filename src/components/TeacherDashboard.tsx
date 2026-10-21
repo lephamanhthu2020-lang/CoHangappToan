@@ -143,7 +143,7 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
             Dashboard Giáo viên – Theo dõi tiến độ 47 học sinh ẩn danh
           </h2>
           <p className="text-stone-600 text-sm sm:text-base mt-1 max-w-3xl">
-            Lớp thực nghiệm tại Trường TH và THCS An Hiệp, Lâm Đồng. Đánh giá tác động học tập (Pre-test vs Post-test), 
+            Lớp thực nghiệm tại Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng. Đánh giá tác động học tập (Pre-test vs Post-test), 
             phân hóa dạy học theo nhóm năng lực và theo dõi lỗi toán học thường gặp.
           </p>
         </div>

@@ -35,7 +35,7 @@ export const AIProblemWorkshop: React.FC<AIProblemWorkshopProps> = ({
     'Tính diện tích hình chữ nhật và vận dụng vào bài toán định mức nước tưới tiết kiệm'
   );
   const [localContext, setLocalContext] = useState(
-    'Vườn rau xà lách công nghệ cao tại xã An Hiệp, huyện Đức Trọng, Lâm Đồng'
+    'Vườn rau xà lách công nghệ cao tại thôn An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng'
   );
   const [dataNumbers, setDataNumbers] = useState(
     'Chiều dài 12m, chiều rộng 8m; Tưới phun 5 lít/m²; Tưới nhỏ giọt 3,5 lít/m²'
@@ -43,7 +43,7 @@ export const AIProblemWorkshop: React.FC<AIProblemWorkshopProps> = ({
   const [difficulty, setDifficulty] = useState<'Nhận biết' | 'Thông hiểu' | 'Vận dụng' | 'Vận dụng cao'>('Vận dụng');
   const [dataType, setDataType] = useState<'Mô phỏng' | 'Dữ liệu thực tế'>('Mô phỏng');
   const [dataSource, setDataSource] = useState(
-    'Mô hình khảo sát thực nghiệm Trường TH và THCS An Hiệp, Lâm Đồng'
+    'Mô hình khảo sát thực nghiệm Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng'
   );
   const [recordDate, setRecordDate] = useState('2026-10-21');
 
@@ -61,7 +61,7 @@ export const AIProblemWorkshop: React.FC<AIProblemWorkshopProps> = ({
       grade: 'Lớp 6',
       topic: 'Hình học trực quan - Chu vi và Diện tích',
       objective: 'Tính diện tích hình chữ nhật và tính toán lượng nước tiêu thụ',
-      context: 'Vườn trồng rau xà lách tại xã An Hiệp (huyện Đức Trọng, Lâm Đồng)',
+      context: 'Vườn trồng rau xà lách tại thôn An Hiệp (xã Hiệp Thạnh, Tỉnh Lâm Đồng)',
       numbers: 'Dài 12m, rộng 8m, định mức 5 L/m² và 3.5 L/m²',
     },
     {
@@ -170,7 +170,7 @@ export const AIProblemWorkshop: React.FC<AIProblemWorkshopProps> = ({
       topic,
       difficulty,
       isSimulated: dataType === 'Mô phỏng',
-      dataSource: dataSource || 'Mô hình khảo sát thực nghiệm Trường TH và THCS An Hiệp',
+      dataSource: dataSource || 'Mô hình khảo sát thực nghiệm Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng',
       recordDate,
       story: `Gia đình bạn Huy tại ${localContext} đang áp dụng các kỹ thuật canh tác nông nghiệp công nghệ cao. Với diện tích đất và quy mô được khảo sát (${dataNumbers}), học sinh cần vận dụng kiến thức ${topic} theo ${grade} để tính toán các đại lượng đo lường chính xác, giúp nâng cao hiệu quả kinh tế và bảo vệ môi trường quê hương.`,
       variables: [

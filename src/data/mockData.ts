@@ -10,7 +10,7 @@ export const WORLDS_DATA: World[] = [
     accentColor: '#15803d',
     tagline: 'Mỗi mét vuông rau sạch – Một phép tính thông minh!',
     description: 'Khám phá cách tính diện tích luống rau, tỉ lệ phân bón hữu cơ vi sinh và định mức nước tưới chính xác trên đất đỏ bazan Lâm Đồng.',
-    localHighlight: 'Thủ phủ rau xà lách, ớt chuông, cà chua bi tại xã An Hiệp (huyện Đức Trọng) & Đơn Dương.',
+    localHighlight: 'Thủ phủ rau xà lách, ớt chuông, cà chua bi tại thôn An Hiệp (xã Hiệp Thạnh, huyện Đức Trọng) & Đơn Dương.',
     problemCount: 4,
   },
   {
@@ -46,7 +46,7 @@ export const WORLDS_DATA: World[] = [
     accentColor: '#0284c7',
     tagline: 'Từng giọt nước quý – Nuôi dưỡng sự sống quê mình!',
     description: 'Giải các bài toán thực tiễn về lưu lượng tưới nhỏ giọt, thể tích bể chứa nước mưa và tính toán tỉ lệ tiết kiệm nước ngầm vào mùa khô.',
-    localHighlight: 'Lưu vực sông Đa Nhim, hồ Suối Vàng và mạng lưới thủy lợi An Hiệp.',
+    localHighlight: 'Lưu vực sông Đa Nhim, hồ Suối Vàng và mạng lưới thủy lợi An Hiệp (xã Hiệp Thạnh).',
     problemCount: 4,
   },
 ];
@@ -61,11 +61,11 @@ export const INITIAL_PROBLEMS: MathProblem[] = [
     topic: 'Hình học trực quan & Số học thực tế (Diện tích & Tỉ số %)',
     difficulty: 'Vận dụng',
     isSimulated: true, // "Mô phỏng" phục vụ học tập
-    dataSource: 'Mô hình thực nghiệm Trường TH và THCS An Hiệp, Lâm Đồng',
+    dataSource: 'Mô hình thực nghiệm Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng',
     recordDate: '2026-10-21',
     author: 'Lê Thị Hằng',
     status: 'published',
-    story: `Gia đình bạn Mai ở xã An Hiệp (huyện Đức Trọng, tỉnh Lâm Đồng) trồng một vườn rau xà lách thương phẩm. Vườn rau có dạng hình chữ nhật với chiều dài 12m và chiều rộng 8m. 
+    story: `Gia đình bạn Mai ở thôn An Hiệp (xã Hiệp Thạnh, huyện Đức Trọng, Tỉnh Lâm Đồng) trồng một vườn rau xà lách thương phẩm. Vườn rau có dạng hình chữ nhật với chiều dài 12m và chiều rộng 8m. 
 Để ứng phó với mùa khô Tây Nguyên và bảo tồn nguồn nước ngầm quý giá, gia đình Mai đang cân nhắc chuyển đổi giữa hai phương án tưới:
 - Phương án A (Tưới phun mưa truyền thống): Tiêu thụ 5 lít nước trên mỗi mét vuông (5 lít/m²/ngày).
 - Phương án B (Tưới nhỏ giọt công nghệ cao): Tiêu thụ 3,5 lít nước trên mỗi mét vuông (3,5 lít/m²/ngày).

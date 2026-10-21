@@ -36,7 +36,7 @@ export const BannerHero: React.FC<BannerHeroProps> = ({
             {/* Location & Author badge */}
             <div className="inline-flex items-center gap-2 bg-emerald-950/60 backdrop-blur border border-emerald-600/50 px-3.5 py-1.5 rounded-full text-xs sm:text-sm text-emerald-200 shadow-inner">
               <MapPin className="w-4 h-4 text-amber-400 shrink-0" />
-              <span>Trường TH & THCS An Hiệp, Đức Trọng, Lâm Đồng</span>
+              <span>Trường TH & THCS An Hiệp, xã Hiệp Thạnh, Tỉnh Lâm Đồng</span>
               <span className="text-emerald-500">•</span>
               <span className="font-semibold text-amber-300">Tác giả: Lê Thị Hằng</span>
             </div>
